@@ -37,8 +37,7 @@ var speeds = {
 };
 
 var textLines = [
-        { string: "That", speed: speeds.pause},
-        { string: " was amazing queen! ", speed: speeds.slow},
+        { string: "That was amazing queen! ", speed: speeds.slow},
         { string: "You ate! ", speed: speeds.pause},
         { string: "Now you see that boundary separating the sun’s corona from the solar winds? We high-key need you to make it to the Alfvén surface. ", speed: speeds.normal},
         { string: "Periodt. ", speed: speeds.veryslow},
@@ -81,6 +80,11 @@ setTimeout(() => {
     revealOneCharacter(characters);
 }, 600)
 
-if(!(Array.isArray(textLines) && textLines.length)){
-    console.log("I'm here!!!");
+function confirmFunction(){
+    if(window.confirm('Be a G.O.A.T. and complete the maze or click cancel to reread this passage.')){
+        window.location.href='https://c1phan.github.io/phanily/';
+    }
+    else{
+        window.location.href='https://c1phan.github.io/dialogue3/'
+    }
 }
