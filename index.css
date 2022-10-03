@@ -13,9 +13,6 @@ p {
 h1{
     margin-top: 45px;
     text-align: center;
-}
-
-h1, h4 {
     color: #f6d1fb;
 }
 
@@ -35,7 +32,7 @@ canvas {
 .text {
     width: 470;
     position: absolute;
-    top: 80%;
+    top: 87%;
     left: 72%;
     -moz-transform: translateX(-55%) translateY(-45%);
     -webkit-transform: translateX(-55%) translateY(-45%);
