@@ -38,7 +38,7 @@ var speeds = {
 
 var textLines = [
         { string: "That was amazing queen! ", speed: speeds.slow},
-        { string: "You ate! ", speed: speeds.pause},
+        { string: "You ate! ", speed: speeds.veryslow},
         { string: "Now you see that boundary separating the sun’s corona from the solar winds? We high-key need you to make it to the Alfvén surface. ", speed: speeds.normal},
         { string: "Periodt. ", speed: speeds.veryslow},
         { string: "Sheesh, this is going to be tough. We’re almost there. But we need you to make it to our last destination, the corona. If you know you know.", speed: speeds.normal}
