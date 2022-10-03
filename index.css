@@ -27,16 +27,22 @@ button {
     background-color: #f6d1fb;
     border-color: black;
     margin-top: 5px;
+    position: absolute;
+    top: 102%;
+    left: 12%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .text {
-    width: 470;
-    position: fixed;
-    top: 85%;
-    left: 65%;
-    -moz-transform: translateX(-55%) translateY(-45%);
-    -webkit-transform: translateX(-55%) translateY(-45%);
-    transform: translateX(-75%) translateY(-55%);
+    width: 450;
+    position: absolute;
+    top: 86%;
+    left: 47%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .text span {
